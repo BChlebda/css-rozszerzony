@@ -56,3 +56,46 @@
 div:target{
     border: 2px solid black;
 }
+
+div[lang=as] p{
+    color: aquamarine;
+}
+
+/* dzieci elementów */
+
+#childs ul li:first-child{
+    font-size: 45px;
+}
+
+#childs ul li:last-child{
+    background-color: bisque;
+}
+
+#only span:only-child{
+    color: mediumorchid;
+}
+
+div:empty{
+    width: 200px;
+    height: 200px;
+    background-color: mediumaquamarine;
+}
+
+/* zabawa atrybutami */
+
+#atrybuty input[title~="kol"]{
+    border: 1px solid green;
+}
+
+#atrybuty input[title*="kol"]{
+    background-color: beige;
+}
+
+#atrybuty input[title^="ck"]{
+    background-color: cyan;
+}
+
+#atrybuty input[title$="ol 4"]{
+    background-color: red;
+}
+
