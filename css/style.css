@@ -1,0 +1,26 @@
+* {
+    font-size: 30px;
+}
+
+#kontener p::before{
+    content: '*';
+}
+
+#kontener p::after{
+    content: '*';
+}
+
+#kontener p::first-line{
+    content: '*';
+}
+
+/* unicode w css \U1234 */
+
+#kontener h1::first-letter{
+    color: aqua;
+}
+
+#m123 p::first-letter{
+    color: red;
+    font-size: 40px;
+}
