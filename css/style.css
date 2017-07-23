@@ -2,6 +2,8 @@
     font-size: 30px;
 }
 
+/* pseudoelementy poniewaz nie ma ich w kodzie html */
+
 #kontener p::before{
     content: '*';
 }
@@ -23,4 +25,34 @@
 #m123 p::first-letter{
     color: red;
     font-size: 40px;
+}
+
+/* pseudoklasy linków */
+
+#link a {
+    color: pink;
+}
+
+#link a:visited{
+    color:gray;
+}
+
+#link a:hover{
+    color: yellow;
+}
+
+#link a:active{
+    color: red;
+}
+
+/* fokus na inputa */
+
+#form input:focus{
+    color:magenta;
+}
+
+/* pseudoklasy target lang */
+
+div:target{
+    border: 2px solid black;
 }
